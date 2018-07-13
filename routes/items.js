@@ -18,6 +18,12 @@ router.get('/', function (req, res, next) {
       plu_cd: '345',
       name: 'バナナ',
       price: 160
+    },
+    // 黒崎追加 2018/07/13
+    {
+      plu_cd: '456',
+      name: 'たまご',
+      price: 200
     }
   ]
   let result
